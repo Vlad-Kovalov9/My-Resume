@@ -1,0 +1,42 @@
+.container {
+  padding-top: 69px;
+  display: flex;
+  gap: 36px;
+}
+
+.image {
+  border-radius: 4px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #f5e8e8;
+  text-align: center;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 24px;
+  color: #f5e8e8;
+  margin-top: 12px;
+}
+
+.iconContent {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-top: 27px;
+}
+
+.location {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.iconLocation {
+  width: 18px;
+  height: 22px;
+}

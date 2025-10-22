@@ -1,11 +1,8 @@
 body {
+  font-family: "Montserrat", sans-serif;
   color: black;
   margin: 0 auto;
-  background-color: aquamarine;
-}
-
-h1 {
-  font-family: "Montserrat Alternates", sans-serif;
+  background: #1c1d22;
 }
 
 h1,
@@ -17,6 +14,7 @@ h6,
 p {
   margin: 0;
   padding: 0;
+  color: #ffffff;
 }
 
 ul,
@@ -27,7 +25,7 @@ ol {
 }
 
 a {
-  color: currentColor;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -39,4 +37,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+svg {
+  fill: #ffffff;
 }

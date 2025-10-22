@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  align-items: center;
+  gap: 59px;
+  margin-top: 68px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 20px;
+}
