@@ -1,0 +1,40 @@
+.accordion {
+  border-bottom: 2px solid #666565;
+  padding: 24px 0;
+  max-width: 1079px;
+}
+
+.header {
+  width: 100%;
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.icon {
+  width: 24px;
+  height: 9px;
+  fill: #ffffff;
+  transition: transform 0.4s ease;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.contentContainer {
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+.content {
+  padding-top: 28px;
+}
