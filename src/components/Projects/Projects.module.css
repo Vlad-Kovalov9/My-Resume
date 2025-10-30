@@ -1,0 +1,70 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  background: rgba(60, 60, 60, 0.2);
+  padding: 30px 22px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.icon {
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+}
+
+.card:hover .icon {
+  animation: rotateIcon 0.8s forwards;
+}
+
+@keyframes rotateIcon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.description {
+  font-weight: 300;
+  font-size: 16px;
+  max-width: 400px;
+  min-height: 92px;
+  margin-top: 16px;
+}
+
+.stack {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 23px;
+}
+
+.tech {
+  font-weight: 500;
+  font-size: 16px;
+  color: #bbb;
+  margin-top: 4px;
+}

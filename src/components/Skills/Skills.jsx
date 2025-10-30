@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <div className={s.container}>
       <div className={s.block}>
-        <h3 className={s.title}>Hard</h3>
+        <h2 className={s.title}>Hard</h2>
         <ul className={s.list}>
           {skillsData.hard.map((skill, i) => (
             <li key={i} className={s.item}>
@@ -16,7 +16,7 @@ export default function Skills() {
       </div>
 
       <div className={s.block}>
-        <h3 className={s.title}>Soft</h3>
+        <h2 className={s.title}>Soft</h2>
         <ul className={s.list}>
           {skillsData.soft.map((skill, i) => (
             <li key={i} className={s.item}>
