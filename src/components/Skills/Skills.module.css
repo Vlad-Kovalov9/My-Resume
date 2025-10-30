@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 30px;
+  color: #e1e1e1;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.item {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  padding: 8px 24px;
+  background: #222327;
+  border-radius: 8px;
+  transition: background 0.3s;
+  cursor: default;
+}
+
+.item:hover {
+  background: rgba(44, 172, 126, 0.2);
+}
