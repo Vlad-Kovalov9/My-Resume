@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.marqueeTop,
+.marqueeBottom {
+  overflow: hidden;
+  padding: 12px 0;
+  font-weight: 700;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.marqueeTop {
+  background: #e3e3e3;
+  color: #0f0f0f;
+  transform: rotate(-4deg);
+}
+
+.marqueeBottom {
+  background: #222327;
+  color: #fff;
+  transform: rotate(4deg);
+}
+
+.marqueeTop .marqueeContent span,
+.marqueeBottom .marqueeContent span {
+  padding-right: 90px;
+}
