@@ -4,12 +4,10 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .accordion {
-  margin-top: 40px;
+  margin: 40px auto;
 }
 
 @media screen and (max-width: 768px) {
