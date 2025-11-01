@@ -7,7 +7,6 @@
 .title {
   font-weight: 500;
   font-size: 30px;
-  color: #e1e1e1;
 }
 
 .list {
@@ -20,9 +19,9 @@
 .item {
   font-weight: 300;
   font-size: 20px;
-  color: #fff;
   padding: 8px 24px;
-  background: #222327;
+  background: var(--card-bg);
+  color: var(--text);
   border-radius: 8px;
   transition: background 0.3s;
   cursor: default;

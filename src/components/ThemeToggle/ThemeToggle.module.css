@@ -1,0 +1,46 @@
+.switch {
+  position: relative;
+  width: 74px;
+  height: 31px;
+  background: var(--card-bg);
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.iconMoon {
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  fill: #f3f3f3;
+}
+
+.iconSun {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  width: 22px;
+  height: 22px;
+  fill: #1c1d22;
+}
+
+.thumb {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: var(--text);
+  transition: transform 0.3s ease;
+}
+
+[data-theme="dark"] .thumb {
+  transform: translateX(40px);
+}

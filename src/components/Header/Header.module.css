@@ -8,7 +8,6 @@
   font-weight: 500;
   font-size: 130px;
   text-transform: uppercase;
-  color: #f3f3f3;
 }
 
 .description {
@@ -43,8 +42,6 @@
   font-weight: 500;
   font-size: 20px;
   padding: 19px 83px;
-  background: #f3f3f3;
-  color: #1c1d22;
   border: none;
   border-radius: 8px;
   margin: 50px auto 0;
@@ -52,14 +49,14 @@
 }
 
 .iconBtn {
-  fill: #1c1d22;
+  fill: var(--bg);
   width: 20px;
   height: 20px;
   transition: transform 0.3s ease;
 }
 
 .button:hover {
-  background: #e3e3e3;
+  background: var(--button-hover);
   transform: scale(1.1);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }

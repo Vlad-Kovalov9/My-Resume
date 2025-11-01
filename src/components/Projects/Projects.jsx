@@ -21,7 +21,7 @@ export default function Projects() {
           </div>
           <p className={s.description}>{project.description}</p>
           <p className={s.stack}>{project.stack}</p>
-          <p className={s.tech}>{project.tech.join(", ")}</p>
+          <span className={s.tech}>{project.tech.join(", ")}</span>
         </a>
       ))}
     </div>
