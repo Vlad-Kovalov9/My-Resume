@@ -73,3 +73,11 @@
     transform: rotate(360deg);
   }
 }
+
+.switcherContainer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 35px;
+  margin-top: 35px;
+}

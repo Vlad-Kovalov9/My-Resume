@@ -11,8 +11,10 @@ export default function Header() {
 
   return (
     <div className={s.container}>
-      <LanguageSwitcher />
-      <ThemeToggle />
+      <div className={s.switcherContainer}>
+        <LanguageSwitcher />
+        <ThemeToggle />
+      </div>
       <div className={s.content}>
         <img src={photo} alt="My Photo" className={s.image} />
         <h1 className={s.name}>{t("name")}</h1>

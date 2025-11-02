@@ -1,18 +1,17 @@
 .langSwitcher {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .langSwitcher button {
-  padding: 5px 10px;
-  border: 1px solid #2cac7e;
+  padding: 0;
   background-color: transparent;
-  cursor: pointer;
-  border-radius: 5px;
-  font-weight: bold;
+  color: #9c9c9c;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .langSwitcher button.active {
-  background-color: #2cac7e;
-  color: white;
+  color: var(--text);
 }
