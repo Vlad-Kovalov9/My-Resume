@@ -39,13 +39,18 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: 500;
-  font-size: 20px;
-  padding: 19px 83px;
+  padding: 19px 60px;
   border: none;
   border-radius: 8px;
   margin: 50px auto 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.buttonText {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--button-text);
+  min-width: 200px;
 }
 
 .iconBtn {

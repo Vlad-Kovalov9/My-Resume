@@ -15,13 +15,13 @@ export default function LanguageSwitcher() {
         className={i18n.language === "en" ? s.active : ""}
         onClick={() => changeLanguage("en")}
       >
-        EN
+        En
       </button>
       <button
         className={i18n.language === "ua" ? s.active : ""}
         onClick={() => changeLanguage("ua")}
       >
-        UA
+        Ua
       </button>
     </div>
   );

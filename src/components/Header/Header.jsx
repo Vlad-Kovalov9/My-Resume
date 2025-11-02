@@ -30,7 +30,7 @@ export default function Header() {
       </div>
 
       <button className={s.button}>
-        {t("download")}
+        <p className={s.buttonText}> {t("download")}</p>
         <svg className={s.iconBtn}>
           <use href={`${sprite}#icon-cv`} />
         </svg>

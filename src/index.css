@@ -18,6 +18,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   color: var(--text);
   margin: 0 auto;
   background: var(--bg);
