@@ -68,3 +68,25 @@
   color: #9c9c9c;
   margin-top: 4px;
 }
+
+@media screen and (max-width: 1440px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .description {
+    max-width: 586px;
+    min-height: 72px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 22px;
+  }
+
+  .description {
+    max-width: 315px;
+    min-height: 140px;
+  }
+}

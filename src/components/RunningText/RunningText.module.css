@@ -29,3 +29,31 @@
 .marqueeBottom .marqueeContent span {
   padding-right: 90px;
 }
+
+@media screen and (max-width: 1440px) {
+  .marqueeTop,
+  .marqueeBottom {
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .marqueeTop .marqueeContent span,
+  .marqueeBottom .marqueeContent span {
+    padding-right: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .marqueeTop,
+  .marqueeBottom {
+    padding: 8px 0;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .marqueeTop .marqueeContent span,
+  .marqueeBottom .marqueeContent span {
+    padding-right: 50px;
+  }
+}
