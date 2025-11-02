@@ -15,7 +15,7 @@ export default function App() {
       <div className={s.container}>
         <Header />
 
-        <div className={s.accordion}>
+        {/* <div className={s.accordion}>
           <Accordion title={t("about")}>
             <About />
           </Accordion>
@@ -27,9 +27,9 @@ export default function App() {
           <Accordion title={t("projects")}>
             <Projects />
           </Accordion>
-        </div>
+        </div> */}
       </div>
-      <RunningText />
+      {/* <RunningText /> */}
     </>
   );
 }

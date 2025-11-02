@@ -21,3 +21,21 @@
   font-weight: 500;
   font-size: 20px;
 }
+
+@media screen and (max-width: 1440px) {
+  .link {
+    font-size: 18px;
+  }
+
+  .list {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .list {
+    margin-top: 24px;
+    flex-direction: column;
+    gap: 35px;
+  }
+}
