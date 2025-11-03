@@ -29,12 +29,20 @@ export default function Header() {
         <p className={s.location}>{t("location")}</p>
       </div>
 
-      <button className={s.button}>
-        <p className={s.buttonText}> {t("download")}</p>
-        <svg className={s.iconBtn}>
-          <use href={`${sprite}#icon-cv`} />
-        </svg>
-      </button>
+      <div className={s.buttonContainer}>
+        <button className={s.button}>
+          <p className={s.buttonText}> {t("view")}</p>
+          <svg className={s.iconBtn}>
+            <use href={`${sprite}#icon-cv`} />
+          </svg>
+        </button>
+        <button className={s.button}>
+          <p className={s.buttonText}> {t("download")}</p>
+          <svg className={s.iconBtn}>
+            <use href={`${sprite}#icon-cv`} />
+          </svg>
+        </button>
+      </div>
 
       <SocialMedia />
     </div>

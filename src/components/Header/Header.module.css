@@ -35,22 +35,30 @@
   font-size: 20px;
 }
 
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
 .button {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   padding: 19px 60px;
   border: none;
   border-radius: 8px;
-  margin: 50px auto 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  min-width: 313px;
 }
 
 .buttonText {
   font-weight: 500;
   font-size: 20px;
   color: var(--button-text);
-  min-width: 200px;
 }
 
 .iconBtn {
@@ -111,6 +119,11 @@
   .iconContent {
     margin-top: 12px;
   }
+
+  .buttonContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -131,13 +144,12 @@
   }
 
   .button {
-    width: 100%;
+    width: 90%;
     justify-content: center;
   }
 
   .buttonText {
     font-size: 16px;
-    min-width: 132px;
   }
 
   .iconBtn {
