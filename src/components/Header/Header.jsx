@@ -5,6 +5,7 @@ import SocialMedia from "../SocialMedia/SocialMedia";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
+import ButtonsCv from "../ButtonsCv/ButtonsCv";
 
 export default function Header() {
   const { t } = useTranslation();
@@ -29,20 +30,7 @@ export default function Header() {
         <p className={s.location}>{t("location")}</p>
       </div>
 
-      <div className={s.buttonContainer}>
-        <button className={s.button}>
-          <p className={s.buttonText}> {t("view")}</p>
-          <svg className={s.iconBtn}>
-            <use href={`${sprite}#icon-cv`} />
-          </svg>
-        </button>
-        <button className={s.button}>
-          <p className={s.buttonText}> {t("download")}</p>
-          <svg className={s.iconBtn}>
-            <use href={`${sprite}#icon-cv`} />
-          </svg>
-        </button>
-      </div>
+      <ButtonsCv />
 
       <SocialMedia />
     </div>
