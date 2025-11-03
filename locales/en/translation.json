@@ -8,5 +8,8 @@
   "about_text2": "I focus on clean architecture, reusable components, and smooth user experience.",
   "about_text3": "Currently seeking a position where I can grow as a React developer and contribute to a great product team.",
   "skills": "Skills",
-  "projects": "Projects"
+  "projects": "Projects",
+  "projects_happy": "Happy Хвіст — a full-stack pet adoption website built with React, Node.js, and MongoDB. Includes user authentication, reviews, filtering, and a fully responsive interface. Designed and developed from scratch, including custom UI/UX.",
+  "projects_beer": "Beer House — a simple, responsive landing page showcasing adaptive layout and clean design principles.",
+  "projects_movie": "Movie Explorer — a React app for browsing trending movies using TheMovieDB API. Includes detailed pages for movies, cast, info, reviews, and search functionality."
 }

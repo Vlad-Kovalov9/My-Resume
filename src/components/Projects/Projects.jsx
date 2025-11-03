@@ -1,8 +1,11 @@
+import { useTranslation } from "react-i18next";
 import { projectsData } from "../../data/projectsData";
 import s from "./Projects.module.css";
 import sprite from "../../assets/icons/sprite.svg";
 
 export default function Projects() {
+  const { t } = useTranslation();
+
   return (
     <div className={s.container}>
       {projectsData.map((project, i) => (
@@ -19,7 +22,7 @@ export default function Projects() {
               <use href={`${sprite}#icon-download`} />
             </svg>
           </div>
-          <p className={s.description}>{project.description}</p>
+          <p className={s.description}>{t(project.descriptionKey)}</p>
           <p className={s.stack}>{project.stack}</p>
           <span className={s.tech}>{project.tech.join(", ")}</span>
         </a>
