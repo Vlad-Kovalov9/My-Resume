@@ -1,6 +1,5 @@
 import s from "./Header.module.css";
 import sprite from "../../assets/icons/sprite.svg";
-import photo from "/image/test.png";
 import SocialMedia from "../SocialMedia/SocialMedia";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
@@ -17,7 +16,12 @@ export default function Header() {
         <ThemeToggle />
       </div>
       <div className={s.content}>
-        <img src={photo} alt="My Photo" className={s.image} />
+        <img
+          src="https://res.cloudinary.com/dcnsdntgs/image/upload/f_auto,q_auto/my-photo_fm95wx.png"
+          alt="My Photo"
+          className={s.image}
+        />
+
         <h1 className={s.name}>{t("name")}</h1>
       </div>
 
