@@ -19,11 +19,11 @@ export const skillsData = {
   ],
 
   soft: [
-    "Teamwork ",
-    "Communication",
-    "Responsibility",
-    "Problem-solving",
-    "Adaptability",
-    "Attention to Detail",
+    "soft_teamwork",
+    "soft_communication",
+    "soft_responsibility",
+    "soft_problem",
+    "soft_adaptability",
+    "soft_attention",
   ],
 };

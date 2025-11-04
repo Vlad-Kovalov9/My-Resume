@@ -1,7 +1,10 @@
 import s from "./Skills.module.css";
 import { skillsData } from "../../data/skills";
+import { useTranslation } from "react-i18next";
 
 export default function Skills() {
+  const { t } = useTranslation();
+
   return (
     <div className={s.container}>
       <div className={s.block}>
@@ -20,7 +23,7 @@ export default function Skills() {
         <ul className={s.list}>
           {skillsData.soft.map((skill, i) => (
             <li key={i} className={s.item}>
-              {skill}
+              {t(skill)}
             </li>
           ))}
         </ul>

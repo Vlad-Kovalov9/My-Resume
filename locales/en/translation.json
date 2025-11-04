@@ -6,8 +6,8 @@
   "view": "View CV",
   "about": "About me",
   "about_text1": "Hi! My name is Vladyslav, I’m a Frontend / React developer.",
-  "about_text2": "I create modern, fast, and user-friendly websites using HTML5, CSS3, JavaScript, React, Node.js, and MongoDB.",
-  "about_text3": " I’m looking for my first IT job to grow as a developer and contribute to cool products with a team.",
+  "about_text2": "I build fast, modern, and user-friendly interfaces using HTML5, CSS3, JavaScript, and React. I also have basic experience with Node.js and MongoDB from full-stack projects.",
+  "about_text3": "I’m looking for my first IT position to grow as a developer and contribute to meaningful products together with a team.",
   "languages": "Languages:",
   "about_languages1": "Ukrainian — native",
   "about_languages2": "English — conversational",
@@ -18,5 +18,12 @@
   "projects": "Projects",
   "projects_happy": "Happy Хвіст — a full-stack pet adoption website built with React, Node.js, and MongoDB. Includes user authentication, reviews, filtering, and a fully responsive interface. Designed and developed from scratch, including custom UI/UX.",
   "projects_beer": "Beer House — a simple, responsive landing page showcasing adaptive layout and clean design principles.",
-  "projects_movie": "Movie Explorer — a React app for browsing trending movies using TheMovieDB API. Includes detailed pages for movies, cast, info, reviews, and search functionality."
+  "projects_movie": "Movie Explorer — a React app for browsing trending movies using TheMovieDB API. Includes detailed pages for movies, cast, info, reviews, and search functionality.",
+  "soft_skills": "Soft skills",
+  "soft_teamwork": "Teamwork",
+  "soft_communication": "Communication",
+  "soft_responsibility": "Responsibility",
+  "soft_problem": "Problem-solving",
+  "soft_adaptability": "Adaptability",
+  "soft_attention": "Attention to Detail"
 }
