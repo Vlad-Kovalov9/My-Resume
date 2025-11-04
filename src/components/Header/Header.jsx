@@ -17,7 +17,7 @@ export default function Header() {
       </div>
       <div className={s.content}>
         <img
-          src="https://res.cloudinary.com/dcnsdntgs/image/upload/f_auto,q_auto/my-photo_fm95wx.png"
+          src="https://res.cloudinary.com/dcnsdntgs/image/upload/v1762259271/photo_vedvwr.png"
           alt="My Photo"
           className={s.image}
         />
