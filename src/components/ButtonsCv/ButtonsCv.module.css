@@ -41,6 +41,49 @@
   animation: rotateIconBtn 0.8s forwards;
 }
 
+.dropdown {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: var(--button-bg);
+  border-radius: 8px;
+  padding: 6px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: dropdownOpen 0.2s forwards;
+  z-index: 10;
+}
+
+.link {
+  padding: 12px 0;
+  text-align: center;
+  text-decoration: none;
+  color: var(--button-text);
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.link:hover {
+  background: var(--card-bg);
+  color: var(--text);
+}
+
+@keyframes dropdownOpen {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @keyframes rotateIconBtn {
   from {
     transform: rotate(0deg);
