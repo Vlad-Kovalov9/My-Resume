@@ -1,6 +1,5 @@
 .buttonContainer {
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 50px;
   margin-top: 50px;
@@ -50,31 +49,47 @@
   top: 100%;
   left: 0;
   width: 100%;
-  background: var(--button-bg);
-  border-radius: 8px;
-  padding: 6px 0;
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  gap: 8px;
+  background: var(--button-bg);
+  border-radius: 8px;
+  padding: 8px 0;
   opacity: 0;
   transform: translateY(-10px);
-  animation: dropdownOpen 0.2s forwards;
-  z-index: 10;
+  pointer-events: none;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.menuOpen {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.menuAnimated {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
 }
 
 .link {
-  padding: 12px 0;
-  text-align: center;
-  text-decoration: none;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background: var(--button-hover);
   color: var(--button-text);
-  font-weight: 500;
-  transition: background 0.2s ease;
+  text-align: center;
+  font-size: 18px;
+  transition: background 0.3s ease;
 }
 
 .link:hover {
-  background: var(--card-bg);
-  color: var(--text);
+  background: var(--button-bg);
 }
 
 @keyframes dropdownOpen {
@@ -96,6 +111,7 @@
 @media screen and (max-width: 1440px) {
   .buttonContainer {
     flex-direction: column;
+    align-items: center;
     gap: 20px;
   }
 }
@@ -104,6 +120,7 @@
   .button {
     width: 90%;
     justify-content: center;
+    padding: 19px 0px;
   }
 
   .buttonText {

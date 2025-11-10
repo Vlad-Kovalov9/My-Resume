@@ -3,7 +3,7 @@
   "description": "Frontend Developer | React Developer",
   "location": "Ukraine, Odesa",
   "download": "DOWNLOAD CV",
-  "view": "View CV",
+  "view": "VIEW CV",
   "about": "About me",
   "about_text1": "Hi! My name is Vladyslav, I’m a Frontend / React developer.",
   "about_text2": "I build fast, modern, and user-friendly interfaces using HTML5, CSS3, JavaScript, and React. I also have basic experience with Node.js and MongoDB from full-stack projects.",
@@ -25,5 +25,7 @@
   "soft_responsibility": "Responsibility",
   "soft_problem": "Problem-solving",
   "soft_adaptability": "Adaptability",
-  "soft_attention": "Attention to Detail"
+  "soft_attention": "Attention to Detail",
+  "button1": "En version",
+  "button2": "Un version"
 }
