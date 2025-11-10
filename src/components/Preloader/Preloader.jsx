@@ -1,8 +1,7 @@
-// Preloader.jsx
 import s from "./Preloader.module.css";
 
 export default function Preloader({ fadeOut }) {
-  const lines = ["WELCOME", "TO MY PORTFOLIO"];
+  const lines = ["WELCOME", "TO MY RESUME"];
 
   return (
     <div className={`${s.preloader} ${fadeOut ? s.fadeOut : ""}`}>
