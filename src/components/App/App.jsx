@@ -11,7 +11,7 @@ export default function App() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <div className={s.wrapper}>
       <div className={s.container}>
         <Header />
 
@@ -30,6 +30,6 @@ export default function App() {
         </div>
       </div>
       <RunningText />
-    </>
+    </div>
   );
 }

@@ -11,6 +11,9 @@
   font-size: 28px;
   display: flex;
   align-items: center;
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
 }
 
 .marqueeTop {
