@@ -23,6 +23,7 @@ body {
   color: var(--text);
   margin: 0 auto;
   background: var(--bg);
+  overflow-x: hidden;
 }
 
 h1,
