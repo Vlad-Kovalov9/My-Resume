@@ -16,6 +16,20 @@
   --button-hover: #e3e3e3;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -23,7 +37,6 @@ body {
   color: var(--text);
   margin: 0 auto;
   background: var(--bg);
-  overflow-x: hidden;
 }
 
 h1,

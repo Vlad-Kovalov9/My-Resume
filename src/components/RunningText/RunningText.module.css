@@ -1,11 +1,14 @@
 .container {
   width: 100%;
   margin: 25px 0;
+  overflow-x: hidden;
 }
 
 .marqueeTop,
 .marqueeBottom {
   overflow: hidden;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
   padding: 12px 0;
   font-weight: 700;
   font-size: 28px;
